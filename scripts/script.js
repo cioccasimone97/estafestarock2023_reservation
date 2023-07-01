@@ -7,7 +7,8 @@ form.addEventListener('submit', (e) => {
 
     var messageToSend = '';
     const aCapo='%0a';
-    messageToSend='==========================='+aCapo;
+    messageToSend='   _*ESTAFESTAROCK 2023*_  '+aCapo+aCapo;
+    messageToSend=messageToSend+'==========================='+aCapo;
     messageToSend=messageToSend+'*Richiesta prenotazione tavolo*'+aCapo;
 
     for(item of formData){

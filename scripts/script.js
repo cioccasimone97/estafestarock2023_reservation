@@ -43,6 +43,7 @@ form.addEventListener('submit', (e) => {
 
     console.log('messageToSend: ', messageToSend);
     window.open("https://wa.me/"+nPhoneNumberTo+'?text='+messageToSend);
+    window.close();
 })
 
 //Popolo select persone

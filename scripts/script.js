@@ -48,7 +48,7 @@ form.addEventListener('submit', (e) => {
 
 //Popolo select persone
 var select = document.getElementById("persone");
-for(var i=4; i<=100; i++){
+for(var i=1; i<=100; i++){
     var option = document.createElement("option"),
     txt = document.createTextNode(i);
     option.appendChild(txt);

@@ -7,7 +7,7 @@ form.addEventListener('submit', (e) => {
 
     var messageToSend = '';
     const aCapo='%0a';
-    messageToSend='. %20%20%20%20 _*ESTAFESTAROCK 2023*_  '+aCapo+aCapo; //aggiunto punto altrimenti TRIM di WA
+    messageToSend='. %20%20%20%20%20%20%20 _*ESTAFESTAROCK 2023*_  '+aCapo+aCapo; //aggiunto punto altrimenti TRIM di WA
     messageToSend=messageToSend+'==========================='+aCapo;
     messageToSend=messageToSend+'*Richiesta prenotazione tavolo*'+aCapo;
 

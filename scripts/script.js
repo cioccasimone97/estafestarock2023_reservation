@@ -26,6 +26,9 @@ form.addEventListener('submit', (e) => {
             case 'ora':
                 messageToSend=messageToSend+'Ora: ' + item[1] + aCapo;
             break;
+            case 'persone':
+                messageToSend=messageToSend+'Persone: ' + item[1] + aCapo;
+            break;
             case 'note':
                 messageToSend=messageToSend+'Note: ' + item[1] + aCapo;
             break;
@@ -40,3 +43,13 @@ form.addEventListener('submit', (e) => {
     console.log('messageToSend: ', messageToSend);
     window.open("https://wa.me/"+nPhoneNumberTo+'?text='+messageToSend);
 })
+
+//Popolo select persone
+var select = document.getElementById("persone");
+for(var i=1; i<=100; i++){
+    var option = document.createElement("option"),
+    txt = document.createTextNode(i);
+    option.appendChild(txt);
+    option.setAttribute("value",i);
+    select.insertBefore(option,select.lastChild);
+}

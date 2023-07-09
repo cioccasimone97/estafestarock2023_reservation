@@ -39,7 +39,7 @@ form.addEventListener('submit', (e) => {
     messageToSend=messageToSend+'===========================';
 
     //Eseguo chiamata a api whatsapp
-    const nPhoneNumberTo = '3492982845';
+    const nPhoneNumberTo = '3917496253';
 
     console.log('messageToSend: ', messageToSend);
     window.open("https://wa.me/"+nPhoneNumberTo+'?text='+messageToSend);
